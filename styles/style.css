@@ -135,8 +135,8 @@ header {
   backdrop-filter: blur(20px);
   background: rgba(48, 48, 48, 0.54);
   justify-content: space-around;
-  top: 65%;
-  left: 60%;
+  top: 600px;
+  left: 670px;
   /* padding: 0px 2; */
 }
 .color_ball {
@@ -170,8 +170,8 @@ header {
   backdrop-filter: blur(20px);
   background: rgba(48, 48, 48, 0.54);
   justify-content: space-around;
-  top: 30%;
-  left: 75%;
+  top: 250px;
+  left: 970px;
   align-items: center;
 }
 .workout_content h4 {
