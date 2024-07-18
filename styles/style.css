@@ -76,13 +76,21 @@ header {
 /* navbar end here */
 /* banner style start here */
 .banner_bg {
-  background-color: rgba(255, 255, 255, 0.555);
-  background-blend-mode: overlay;
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  );
+}
+.container {
+  max-width: 1140px;
+  min-height: 715px;
+  margin: 0 auto;
+  position: relative;
 }
 .banner {
-  /* border: 2px solid saddlebrown; */
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  min-height: 100%;
   /* margin: 0 auto; */
   justify-content: space-around;
   position: relative;
@@ -92,7 +100,7 @@ header {
   /* width: 600px;
   height: 440px; */
   /* border: 2px solid saddlebrown; */
-  margin-top: 150px;
+  margin-top: 110px;
   margin-left: 0;
   margin-bottom: 50px;
 }
@@ -120,6 +128,9 @@ header {
   border-radius: 42px;
   border: 1px solid rgb(255, 255, 255);
 }
+.gap {
+  gap: 20px;
+}
 .btn-primary_responsive {
   display: none;
 }
@@ -135,8 +146,8 @@ header {
   backdrop-filter: blur(20px);
   background: rgba(48, 48, 48, 0.54);
   justify-content: space-around;
-  top: 600px;
-  left: 670px;
+  top: 80%;
+  left: 50%;
   /* padding: 0px 2; */
 }
 .color_ball {
@@ -170,8 +181,8 @@ header {
   backdrop-filter: blur(20px);
   background: rgba(48, 48, 48, 0.54);
   justify-content: space-around;
-  top: 250px;
-  left: 970px;
+  top: 35%;
+  left: 80%;
   align-items: center;
 }
 .workout_content h4 {
@@ -187,6 +198,10 @@ header {
 }
 /* responsive style */
 @media screen and (max-width: 576px) {
+  .nav_title {
+    font-size: 2rem;
+    font-weight: 800;
+  }
   .banner {
     flex-direction: column;
   }
