@@ -34,11 +34,15 @@ body {
   border: none;
 }
 /* navbar style here */
+header {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .nav_container {
   justify-content: space-between;
   align-items: center;
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
 }
 .nav_title {
   font-size: 2.25rem;
@@ -65,6 +69,9 @@ body {
 #about {
   padding: 0px 20px 0px 20px;
 }
+.bar_icon {
+  display: none;
+}
 /* navbar end here */
 /* banner style start here */
 .banner_bg {
@@ -74,16 +81,19 @@ body {
 .banner {
   /* border: 2px solid saddlebrown; */
   width: 100%;
-  height: 715px;
+  height: 100%;
+  /* margin: 0 auto; */
   justify-content: space-around;
+  position: relative;
   /* margin: 0 35px 0 230px; */
 }
 .banner-content {
-  width: 600px;
-  height: 440px;
+  /* width: 600px;
+  height: 440px; */
   /* border: 2px solid saddlebrown; */
-  margin-top: 200px;
-  margin-left: 190px;
+  margin-top: 150px;
+  margin-left: 0;
+  margin-bottom: 50px;
 }
 .banner-title {
   font-size: 4.85rem;
@@ -94,6 +104,7 @@ body {
 .banner-description {
   font-size: 1rem;
   margin-top: 28px;
+  width: 80%;
 }
 .btn-secondary {
   background-color: black;
@@ -103,4 +114,181 @@ body {
   padding: 16px 40px 16px 40px;
   border-radius: 42px;
   border: 1px solid rgb(255, 255, 255);
+}
+.btn-primary_responsive {
+  display: none;
+}
+.banner_img {
+  margin-right: 9%;
+}
+.tutorial_card {
+  position: absolute;
+  width: 206px;
+  height: 96px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  justify-content: space-around;
+  top: 65%;
+  left: 60%;
+  /* padding: 0px 2; */
+}
+.color_ball {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: 20px;
+  top: 28px;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+.tutorial_content h4 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-top: 22px;
+  margin-bottom: 0;
+}
+.tutorial_content p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-right: 20px;
+}
+.workout_card {
+  position: absolute;
+  width: 193px;
+  height: 98px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  justify-content: space-around;
+  top: 30%;
+  left: 75%;
+  align-items: center;
+}
+.workout_content h4 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: 0 0;
+}
+.workout_content p {
+  font-size: 0.81rem;
+  font-weight: 400;
+  margin: 0 0;
+  margin-bottom: 5px;
+}
+/* responsive style */
+@media screen and (max-width: 576px) {
+  .banner {
+    flex-direction: column;
+  }
+  .nav_options {
+    display: none;
+  }
+  .bar_icon {
+    display: block;
+  }
+  .banner-title {
+    font-size: 2.25rem;
+    font-weight: 900;
+  }
+  .banner-description {
+    font-size: 1rem;
+    margin-top: 28px;
+    width: 92%;
+  }
+  .banner-content {
+    margin-top: 0px;
+  }
+  .btn-primary {
+    display: none;
+  }
+  .btn-primary_responsive {
+    display: block;
+    background-color: rgb(230, 83, 60);
+    font-weight: 600;
+    font-size: 1.12rem;
+    width: 169px;
+    height: 54px;
+    color: white;
+    /* padding: 16px 40px 16px 40px; */
+    border-radius: 50px;
+    border: none;
+  }
+  .btn-secondary {
+    background-color: black;
+    font-weight: 600;
+    font-size: 1.12rem;
+    width: 169px;
+    height: 54px;
+    color: white;
+    padding: 0%;
+    border-radius: 42px;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  .tutorial_card {
+    position: absolute;
+    width: 155.74px;
+    height: 72.58px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    justify-content: space-around;
+    top: 700px;
+    left: 30px;
+    /* padding: 0px 2; */
+  }
+  .color_ball {
+    position: relative;
+    width: 30.24px;
+    height: 30.24px;
+    left: 10px;
+    top: 24px;
+    margin-right: 10px;
+    border-radius: 50px;
+  }
+
+  .tutorial_content h4 {
+    font-size: 1.12rem;
+    font-weight: 900;
+    margin-top: 22px;
+    margin-top: 20px;
+  }
+  .tutorial_content p {
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-right: 20px;
+  }
+  .workout_card {
+    top: 530px;
+    left: 190px;
+    position: absolute;
+    width: 145px;
+    height: 74px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    /* justify-content: space-around; */
+  }
+  .workout_content h4 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin: 0 0;
+  }
+  .workout_content p {
+    font-size: 0.6rem;
+    font-weight: 400;
+    margin: 0 0;
+    margin-bottom: 5px;
+  }
+  header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
