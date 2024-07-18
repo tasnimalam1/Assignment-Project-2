@@ -34,6 +34,14 @@ body {
   border-radius: 50px;
   border: none;
 }
+.section_title {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.section_description {
+  font-size: 0.87rem;
+  font-weight: 400;
+}
 /* navbar style here */
 header {
   margin: 0 auto;
@@ -82,11 +90,12 @@ header {
     rgba(119, 119, 119, 0) 100%
   );
 }
-.container {
+.banner_container {
   max-width: 1140px;
   min-height: 715px;
   margin: 0 auto;
   position: relative;
+  margin-bottom: 100px;
 }
 .banner {
   max-width: 100%;
@@ -129,7 +138,7 @@ header {
   border: 1px solid rgb(255, 255, 255);
 }
 .gap {
-  gap: 20px;
+  gap: 10px;
 }
 .btn-primary_responsive {
   display: none;
@@ -148,7 +157,6 @@ header {
   justify-content: space-around;
   top: 80%;
   left: 50%;
-  /* padding: 0px 2; */
 }
 .color_ball {
   position: relative;
@@ -196,6 +204,45 @@ header {
   margin: 0 0;
   margin-bottom: 5px;
 }
+/* banner style end here */
+
+/* habits section styles start */
+.habit_section {
+  max-width: 1044px;
+  min-height: 452px;
+  margin: 0 auto;
+}
+.habit_content {
+  text-align: center;
+  margin-bottom: 55px;
+}
+.title_habit {
+  margin: 0px 0px 0px 0px;
+}
+.description_habit {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.habit_img_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.img {
+  clip-path: circle(50% at 50% 50%);
+}
+.img_container {
+  text-align: center;
+}
+.img_title {
+  font-size: 1.12rem;
+  font-weight: 600;
+}
+.img_description {
+  font-size: 0.87rem;
+  font-weight: 400;
+}
+
 /* responsive style */
 @media screen and (max-width: 576px) {
   .nav_title {
