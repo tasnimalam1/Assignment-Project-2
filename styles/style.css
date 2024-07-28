@@ -84,11 +84,12 @@ header {
 /* navbar end here */
 /* banner style start here */
 .banner_bg {
-  width: 100%;
+  width: 1440px;
   height: 745px;
   margin-bottom: 100px;
+  /* border: 1px solid yellow; */
   background: linear-gradient(
-    180.00deg,
+  0.00deg,
     rgb(17, 17, 17),
     rgba(119, 119, 119, 0.1) 100%
   );
@@ -96,7 +97,6 @@ header {
 .banner_container {
   max-width: 1140px;
   min-height: 715px;
-
   margin: 0 auto;
   position: relative;
   margin-bottom: 100px;
@@ -104,7 +104,7 @@ header {
 .banner {
   max-width: 100%;
   min-height: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   justify-content: space-around;
   position: relative;
   /* margin: 0 35px 0 230px; */
@@ -457,6 +457,57 @@ td {
   color: rgba(255, 255, 255, 0.5);
 }
 /* our team style end here */
+/* start now style start here */
+.start_now_container{
+  max-width: 1060px;
+  min-height: 371px;
+  margin: 0 auto;
+  background-image: url(../images/cool-background-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* border: 1px solid red; */
+  background-color: rgb(34, 34, 34);
+  border-radius: 18px;
+  /* justify-content: space-between; */
+  margin-bottom: 100px;
+}
+.start_now_content{
+  max-width: 70%;
+  margin: 0 auto;
+  padding-top: 30px;
+  min-height: 150px;
+  text-align: center;
+  /* border: 1px solid yellow; */
+}
+.start_now_content h1{
+  margin: 10px;
+}
+.start_form{
+  max-width: 100%;
+  min-height: 210px;
+  /* border: 1px solid tomato; */
+  display: grid;
+  gap: 10px;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  padding-left: 12px;
+  grid-template-columns: repeat(4,1fr);
+}
+.start_input_field{
+  width: 270px;
+  height: 48px;
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+}
+#redius{
+  border-radius: 50px;
+  padding: 3px 0px 3px 10px;
+}
 /* footer styles start here */
 .footer_section {
   max-width: 1440px;
