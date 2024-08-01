@@ -713,5 +713,35 @@ body {
       margin: 0 auto;
       margin-top: 10px;
     }
+    /* Habit section responsive end here */
+    /* run section responsive start here */
+    .run_section {
+      flex-direction: column;
+      align-items: center;
+      padding: 33px;
+    }
+    .section_title {
+      font-size: 2rem;
+      font-weight: 900;
+    }
+    .btn_primary_responsive {
+      display: block;
+      background-color: rgb(230, 83, 60);
+      width: 287px;
+      height: 54px;
+      font-size: 1.12rem;
+      font-weight: 600;
+    }
+    .run_description {
+      width: 100%;
+    }
+    .run_content {
+      margin: 0 20px;
+    }
+    .run_img {
+      width: 366px;
+      height: 312px;
+      border-radius: 18px;
+    }
   }
 }
