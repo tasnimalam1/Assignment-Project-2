@@ -118,7 +118,7 @@ body {
   }
   #font {
     font-family: "Miama", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
   }
   .banner_description {
     font-size: 1rem;
@@ -274,11 +274,14 @@ body {
     width: 366px;
     height: 312px;
     margin: 30px 32px;
+    
   }
   .run_img {
     width: 366px;
     height: 312px;
     border-radius: 18px;
+    object-fit: none;
+    object-position: 65% 25%;
   }
   /* run section style end here */
   /* Bmi section style start here */
