@@ -87,9 +87,9 @@ header {
   min-height: 745px;
   margin-bottom: 100px;
   background: linear-gradient(
-    0deg,
+    180deg,
     rgb(17, 17, 17),
-    rgba(119, 119, 119, 0.1) 100%
+    rgba(119, 119, 119, 0) 100%
   );
 }
 .banner_container {
