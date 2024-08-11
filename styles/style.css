@@ -738,13 +738,13 @@ td {
     margin: 0 20px;
   }
   .run_img_section {
-    width: 287px;
-    height: 180px;
+    width: 300px;
+    height: 200px;
     margin: 30px auto;
   }
   .run_img {
-    width: 287px;
-    height: 180px;
+    width: 300px;
+    height: 200px;
     border-radius: 18px;
   }
   /* run section responsive end */
@@ -818,7 +818,7 @@ td {
     height: 125px;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .team_img_container {
     max-width: 313px;
@@ -859,6 +859,9 @@ td {
     padding-left: 12px;
     grid-template-columns: repeat(1, 1fr);
   }
+  .start_now_content {
+    margin-bottom: 20px;
+  }
   .start_input_field {
     width: 340px;
     height: 48px;
@@ -868,6 +871,7 @@ td {
     font-size: 16px;
     font-weight: 400;
     border: none;
+    margin-left: 10px;
   }
   .unique_btn_primary_responsive {
     display: block;
@@ -876,6 +880,7 @@ td {
     height: 54px;
     font-size: 1.12rem;
     font-weight: 600;
+    margin-left: 10px;
     margin-bottom: 40px;
   }
   /* unique responsive end */
@@ -912,7 +917,7 @@ td {
     width: 345px;
     height: 2px;
     overflow: hidden;
-    margin-left: 15px;
+    margin-left: 20px;
     background-color: rgba(255, 255, 255, 0.1);
     display: inline-block;
   }
