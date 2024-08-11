@@ -70,8 +70,9 @@
         <div class="habit_content">
           <h3 class="section_title title_habit">Change Your Habits</h3>
           <p class="section_description description_habit light_color">
-            We believe fitness should be accessible to everyone, everywhere,
-            regardless of income or access to a gym.
+            Incorporate gym workouts by setting goals, scheduling sessions,
+            starting slow, tracking progress, mixing routines, and rewarding
+            milestones.
           </p>
         </div>
         <div class="habit_img_container">
@@ -79,28 +80,29 @@
             <img class="img" src="./images/image3.png" alt="" />
             <h5 class="img_title">Movement</h5>
             <p class="img_description light_color">
-              We believe fitness should be accessible to everyone
+              Physical activity involving body motion, improving health and
+              fitness.
             </p>
           </div>
           <div class="img_container">
             <img class="img" src="./images/image2.png" alt="" />
             <h5 class="img_title">Time</h5>
             <p class="img_description light_color">
-              We believe fitness should be accessible to everyone
+              A continuous sequence of events, measured in hours and minutes.
             </p>
           </div>
           <div class="img_container">
             <img class="img" src="./images/image4.png" alt="" />
             <h5 class="img_title">Practice</h5>
             <p class="img_description light_color">
-              We believe fitness should be accessible to everyone
+              Repeated exercise or activity to improve skill or proficiency.
             </p>
           </div>
           <div class="img_container">
             <img class="img" src="./images/image5.png" alt="" />
             <h5 class="img_title">Weight Loss</h5>
             <p class="img_description light_color">
-              We believe fitness should be accessible to everyone
+              Reduction in body weight through diet and exercise.
             </p>
           </div>
         </div>
@@ -111,11 +113,11 @@
         <div class="run_content">
           <h3 class="section_title run_title">Run an Extra Mile Easily</h3>
           <p class="section_description run_description light_color">
-            We believe fitness should be accessible to everyone, everywhere,
-            regardless of income or access to a gym. With hundreds of
-            professional workouts.
+            Run an extra mile easily by gradually increasing distance,
+            maintaining proper form, staying hydrated, and pacing yourself
+            effectively.
           </p>
-          <button class="btn_primary btn_primary_responsive btn_run">
+          <button class="btn_primary run_btn_primary_responsive btn_run">
             Join Now
           </button>
         </div>
@@ -130,8 +132,8 @@
           <div class="bmi_content">
             <h3 class="section_title bmi_title">BMI Calculator</h3>
             <p class="section_description bmi_description light_color">
-              We believe fitness should be accessible to everyone, everywhere,
-              regardless of income or access to a gym.
+              Tool that calculates Body Mass Index using weight and height to
+              assess if an individual is underweight, normal, or overweight.
             </p>
           </div>
         </div>
@@ -172,8 +174,8 @@
           <div class="bmi_calc_section">
             <h3 class="calc_title">Calculate your BMI</h3>
             <p class="calc_description section_description light_color">
-              We believe fitness should be accessible to everyone, everywhere,
-              regardless of income or access to a gym.
+              Calculate your BMI by entering your weight and height to determine
+              if you are underweight, normal, overweight, or obese.
             </p>
             <div class="input_container">
               <div>
@@ -222,7 +224,7 @@
             </div>
             <div>
               <input
-                class="btn_primary calc_btn"
+                class="btn_primary calc_btn bmi_btn_primary_responsive"
                 type="submit"
                 value="Calculate"
               />
@@ -236,8 +238,8 @@
         <div class="our_team_content">
           <h3 class="section_title team_title">Meet Our Team</h3>
           <p class="section_description team_description light_color">
-            We believe fitness should be accessible to everyone, everywhere,
-            regardless of income or access to a gym
+            A dedicated group of professionals committed to providing
+            exceptional service and achieving outstanding results together.
           </p>
         </div>
         <div class="team_img_container">
@@ -270,23 +272,33 @@
             </div>
           </div>
           <div class="team_img_content">
-            <img class="team_img" src="./images/trainer5.png" alt="" />
+            <img
+              class="team_img"
+              id="hide_img"
+              src="./images/trainer5.png"
+              alt=""
+            />
             <div class="team_position">
-              <h5 class="team_img_title">Cody Fisher</h5>
-              <p class="team_img_description">Trainer</p>
+              <h5 class="team_img_title" id="hide_img">Cody Fisher</h5>
+              <p class="team_img_description" id="hide_img">Trainer</p>
             </div>
           </div>
           <div class="team_img_content">
-            <img class="team_img" src="./images/trainer6.png" alt="" />
+            <img
+              class="team_img"
+              id="hide_img"
+              src="./images/trainer6.png"
+              alt=""
+            />
             <div class="team_position">
-              <h5 class="team_img_title">Theresa Webb</h5>
-              <p class="team_img_description">Trainer</p>
+              <h5 class="team_img_title" id="hide_img">Theresa Webb</h5>
+              <p class="team_img_description" id="hide_img">Trainer</p>
             </div>
           </div>
         </div>
       </section>
       <!-- our team section end here -->
-      <!-- uniqe section start here -->
+      <!-- unique section start here -->
       <section class="start_now_container">
         <div class="start_now_content">
           <h1 class="section_title">Start Here</h1>
@@ -303,7 +315,7 @@
               type="text"
               placeholder="Name"
               name=""
-              id="redius"
+              id="radius"
             />
           </div>
           <div>
@@ -312,7 +324,7 @@
               type="number"
               placeholder="Phone Number"
               name=""
-              id="redius"
+              id="radius"
             />
           </div>
           <div>
@@ -321,16 +333,20 @@
               type="email"
               placeholder="Email Address"
               name=""
-              id="redius"
+              id="radius"
             />
           </div>
           <div>
-            <input class="btn_primary" type="submit" value="Subscribe" />
+            <input
+              class="btn_primary unique_btn_primary_responsive"
+              type="submit"
+              value="Subscribe"
+            />
           </div>
         </div>
       </section>
     </main>
-    <footer class="hide">
+    <footer>
       <section class="footer_section">
         <div class="footer_container display_flex">
           <div class="footer_left_content">
@@ -339,9 +355,9 @@
                 <em>Iron Paradise Gym</em>
               </h3>
               <p class="section_description footer_description light_color">
-                We believe fitness should be accessible to everyone, everywhere,
-                regardless of income or access to a gym. With hundreds of
-                professional workouts.
+                Physical fitness is a state of health and well-being and, more
+                specifically, the ability to perform aspects of sports,
+                occupations, and daily activities.
               </p>
             </div>
           </div>
@@ -363,7 +379,7 @@
           </div>
         </div>
         <div class="footer_copyright">
-          <hr />
+          <span class="horizontal"></span>
           <p class="copyright_content">All right reserved @Fitness 2024</p>
         </div>
       </section>
