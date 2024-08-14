@@ -598,6 +598,11 @@ td {
     font-size: 2.25rem;
     font-weight: 900;
   }
+  #font {
+    font-family: "Miama", sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+  }
   .banner_description {
     font-size: 1rem;
     margin-top: 28px;
